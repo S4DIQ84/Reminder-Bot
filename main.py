@@ -1,9 +1,9 @@
 from pyrogram import Client,filters
 
 
-api_id=20370928
-api_hash='e68490404862c9c342adc76f870814bd'
-bot_token='6115040897:AAEvsjVIvqP6Up76QwuUeKTL3VNNExguaxE'
+api_id=
+api_hash=
+bot_token=
 app=Client('reminder',api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 
 @app.on_message(filters.text)
